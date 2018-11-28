@@ -4,11 +4,13 @@
   "description": "Este es el backend de batch 25",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Liz Villegas",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.16.4",
     "request": "^2.88.0"
   }
 }
